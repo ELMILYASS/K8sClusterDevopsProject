@@ -41,7 +41,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: elmazidi/myapp-backend:
+          image: elmazidi/myapp-backend:1.0.0
           ports:
             - containerPort: 8080
           env:
