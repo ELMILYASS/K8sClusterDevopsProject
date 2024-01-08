@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: elmazidi/myapp-frontend:
+          image: elmazidi/myapp-frontend::1.1.0
           ports:
             - containerPort: 80
               name: http-port
